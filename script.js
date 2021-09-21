@@ -1,7 +1,12 @@
-const button = document.querySelector("#button")
+
+//"#48556A"
+const test = window.screen.availWidth;
+console.log(test)
+if (test<1000){
+    const button = document.querySelector("#button")
 button.addEventListener("mouseenter",enter)
 button.addEventListener("mouseleave",leave)
-//"#48556A"
+}
 
 function enter() {
     const hide =document.querySelector(".to-hide")
