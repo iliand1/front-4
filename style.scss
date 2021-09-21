@@ -132,7 +132,6 @@ span {
   transition: opacity 1s;
 }
 
-
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
@@ -151,13 +150,12 @@ span {
   border-style: solid;
   border-color: $dark-grey-blue transparent transparent transparent;
 }
-.tooltiptext img{
+.tooltiptext img {
   margin: 0;
 }
 .tooltiptext {
   padding-left: 10px;
   display: flex;
   justify-content: space-around;
-  align-items:center ;
-  ;
+  align-items: center;
 }
