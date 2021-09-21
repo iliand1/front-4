@@ -1,6 +1,6 @@
-
+const test_window = window.innerWidth
 //"#48556A"
-    if (test<1000){
+    if (test_window<1000){
     const button = document.querySelector("#button")
     button.addEventListener("mouseenter",enter)
     button.addEventListener("mouseleave",leave)
